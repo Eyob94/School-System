@@ -1,0 +1,21 @@
+version: '3'
+services:
+  postgres:
+    image: postgres
+    container_name: user_database
+    ports:
+      - '5440:5432'
+    env_file:
+      - docker.env
+    networks:
+      - user
+    volumes:
+      - db:/var/lib/postgresql/data
+
+networks:
+  user:
+    driver: bridge
+
+volumes:
+  db:
+    driver: local
