@@ -2,7 +2,12 @@
   "name": "school",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "migrate:school": "yarn prisma migrate dev --schema apps/school/prisma/schema.prisma",
+    "migrate:user": "yarn prisma migrate dev --schema apps/user/prisma/schema.prisma",
+    "format:school": "yarn prisma format --schema apps/school/prisma/schema.prisma",
+    "format:user": "yarn prisma format --schema apps/user/prisma/schema.prisma"
+  },
   "private": true,
   "dependencies": {
     "@nestjs/common": "^9.0.0",
