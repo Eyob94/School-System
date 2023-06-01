@@ -1,0 +1,1 @@
+export const SMS_CONFIG_OPTIONS = 'SMS_CONFIG_OPTIONS';

@@ -1,4 +1,4 @@
-import { Body, Controller, Get, Logger } from '@nestjs/common';
+import { Body, Controller, Get, Logger, Post } from '@nestjs/common';
 import { EmailService } from './email.service';
 import { SendEmailDTO } from './dto';
 
@@ -12,12 +12,7 @@ export class EmailController {
     return await this.emailService.verify();
   }
 
-  @Get('')
-  hello() {
-    return 'hello';
-  }
-
-  @Get('send')
+  @Post('send')
   sendEmail(@Body() envelope: SendEmailDTO) {
     return this.emailService.sendEmail(envelope);
   }

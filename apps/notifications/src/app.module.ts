@@ -6,7 +6,14 @@ import * as Joi from 'joi';
 
 @Module({
   imports: [
-    SMSModule,
+    SMSModule.registerAsync({
+      imports: [ConfigModule],
+      inject: [ConfigService],
+      useFactory: (configService: ConfigService) => ({
+        VONAGE_API_KEY: configService.get('VONAGE_API_KEY'),
+        VONAGE_API_SECRET: configService.get('VONAGE_API_SECRET'),
+      }),
+    }),
     EmailModule.registerAsync({
       imports: [ConfigModule],
       inject: [ConfigService],
@@ -23,6 +30,10 @@ import * as Joi from 'joi';
         mail_port: Joi.number().required(),
         user: Joi.string().required(),
         password: Joi.string().required(),
+        VONAGE_API_KEY: Joi.string().required(),
+        VONAGE_API_SECRET: Joi.string().required(),
+        VONAGE_PHONE: Joi.string().required(),
+        VONAGE_BRAND: Joi.string().required(),
       }),
     }),
   ],

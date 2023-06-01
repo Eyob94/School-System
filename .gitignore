@@ -41,3 +41,4 @@ Thumbs.db
 
 #environment
 *.env
+apps/**/*.log
