@@ -1,7 +1,7 @@
 {
-  "name": "user",
+  "name": "student",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/user/src",
+  "sourceRoot": "apps/student/src",
   "projectType": "application",
   "targets": {
     "build": {
@@ -11,12 +11,12 @@
       "options": {
         "target": "node",
         "compiler": "tsc",
-        "outputPath": "dist/apps/user",
-        "main": "apps/user/src/main.ts",
-        "tsConfig": "apps/user/tsconfig.app.json",
-        "assets": ["apps/user/src/assets"],
+        "outputPath": "dist/apps/student",
+        "main": "apps/student/src/main.ts",
+        "tsConfig": "apps/student/tsconfig.app.json",
+        "assets": ["apps/student/src/assets"],
         "isolatedConfig": true,
-        "webpackConfig": "apps/user/webpack.config.js"
+        "webpackConfig": "apps/student/webpack.config.js"
       },
       "configurations": {
         "development": {},
@@ -27,14 +27,14 @@
       "executor": "@nrwl/js:node",
       "defaultConfiguration": "development",
       "options": {
-        "buildTarget": "user:build"
+        "buildTarget": "student:build"
       },
       "configurations": {
         "development": {
-          "buildTarget": "user:build:development"
+          "buildTarget": "student:build:development"
         },
         "production": {
-          "buildTarget": "user:build:production"
+          "buildTarget": "student:build:production"
         }
       }
     },
@@ -42,14 +42,14 @@
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["apps/user/**/*.ts"]
+        "lintFilePatterns": ["apps/student/**/*.ts"]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
       "options": {
-        "jestConfig": "apps/user/jest.config.ts",
+        "jestConfig": "apps/student/jest.config.ts",
         "passWithNoTests": true
       },
       "configurations": {
@@ -60,6 +60,5 @@
       }
     }
   },
-  "tags": [],
-  "prisma": {}
+  "tags": []
 }

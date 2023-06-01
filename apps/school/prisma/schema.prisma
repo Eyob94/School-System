@@ -7,15 +7,48 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+enum SchoolType {
+  Private
+  Public
+  BoardingPrivate
+  BoardingPublic
+  International
+}
+
+enum GradingSystem {
+  Letter
+  Percentage
+}
+
+enum AdmissionPolicy {
+  Interview
+  Exam
+  Previous
+}
+
 model School {
-  id             String   @id @default(uuid())
-  name           String
-  city           String
-  contact_number String
-  email          String
-  Teachers       String[]
-  Students       String[]
-  Courses        String[]
-  createdAt      DateTime @default(now())
-  updatedAt      DateTime @updatedAt
+  id                   String            @id @default(uuid())
+  name                 String
+  city                 String
+  contact_number       String
+  principal_name       String
+  accreditation_status Boolean
+  email                String
+  founding_date        DateTime
+  logo                 String
+  school_type          SchoolType
+  grading_system       GradingSystem
+  admissionPolicy      AdmissionPolicy[]
+  tuition              Json[]            @db.JsonB
+  Teachers             String[]
+  Students             String[]
+  Courses              String[]
+  createdAt            DateTime          @default(now())
+  updatedAt            DateTime          @updatedAt
+}
+
+model Courses {
+  id          String @id @default(uuid())
+  name        String
+  description String
 }

@@ -4,10 +4,10 @@
   "license": "MIT",
   "scripts": {
     "start:notification": "dotenv -e noti.env -- yarn nx serve notifications",
-    "migrate:school": "yarn prisma migrate dev --schema apps/school/prisma/schema.prisma",
-    "migrate:user": "yarn prisma migrate dev --schema apps/user/prisma/schema.prisma",
+    "migrate:school": "dotenv -e school.env -- yarn prisma migrate dev --schema apps/school/prisma/schema.prisma",
+    "migrate:studnet": "yarn prisma migrate dev --schema apps/student/prisma/schema.prisma",
     "format:school": "yarn prisma format --schema apps/school/prisma/schema.prisma",
-    "format:user": "yarn prisma format --schema apps/user/prisma/schema.prisma"
+    "format:student": "yarn prisma format --schema apps/student/prisma/schema.prisma"
   },
   "private": true,
   "dependencies": {

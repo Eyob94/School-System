@@ -1,16 +1,16 @@
 version: '3'
 services:
-  user_postgres:
+  student_postgres:
     image: postgres
-    container_name: user_database
+    container_name: student_database
     ports:
       - '5440:5432'
     env_file:
-      - docker.env
+      - student.env
     networks:
-      - user
+      - student
     volumes:
-      - db:/var/lib/postgresql/data
+      - studentDb:/var/lib/postgresql/data
 
   school_postgres:
     image: postgres
@@ -18,20 +18,20 @@ services:
     ports:
       - '5441:5432'
     env_file:
-      - docker.env
+      - school.env
     networks:
       - school
     volumes:
       - schoolDB:/var/lib/postgresql/data
 
 networks:
-  user:
+  student:
     driver: bridge
   school:
     driver: bridge
 
 volumes:
-  db:
+  studentDb:
     driver: local
   schoolDB:
     driver: local
