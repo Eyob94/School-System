@@ -1,0 +1,110 @@
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:37:47 AM [33m[RoutesResolver][39m [32mEmailController {/api/email}:[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:37:47 AM [33m[RouterExplorer][39m [32mMapped {/api/email/verify, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:37:47 AM [33m[NestApplication][39m [32mNest application successfully started[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:37:47 AM [32m🚀 Application is running on: http://localhost:3000/api[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:38:17 AM [33m[RoutesResolver][39m [32mEmailController {/api/email}:[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:38:17 AM [33m[RouterExplorer][39m [32mMapped {/api/email/verify, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:38:17 AM [33m[RouterExplorer][39m [32mMapped {/api/email, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:38:17 AM [33m[NestApplication][39m [32mNest application successfully started[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:38:17 AM [32m🚀 Application is running on: http://localhost:3000/api[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:41:32 AM [33m[RoutesResolver][39m [32mEmailController {/api/email}:[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:41:32 AM [33m[RouterExplorer][39m [32mMapped {/api/email/verify, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:41:32 AM [33m[RouterExplorer][39m [32mMapped {/api/email, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:41:32 AM [33m[NestApplication][39m [32mNest application successfully started[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:41:32 AM [32m🚀 Application is running on: http://localhost:3000/api[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:41:50 AM [33m[RoutesResolver][39m [32mEmailController {/api/email}:[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:41:50 AM [33m[RouterExplorer][39m [32mMapped {/api/email/verify, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:41:50 AM [33m[RouterExplorer][39m [32mMapped {/api/email, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:41:50 AM [33m[NestApplication][39m [32mNest application successfully started[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:41:50 AM [32m🚀 Application is running on: http://localhost:3000/api[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:41:58 AM [33m[EmailController][39m [32mhello[39m - {}
+[31m[NestWinston][39m [33mError[39m	5/26/2023, 5:41:58 AM [33m[EmailController][39m [31mhello[39m - {"stack":[null]}
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:41:58 AM [33m[EmailController][39m [32mhello[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:41:58 AM [33m[EmailController][39m [32mhello[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:42:31 AM [33m[EmailController][39m [32mhello[39m - {}
+[31m[NestWinston][39m [33mError[39m	5/26/2023, 5:42:31 AM [33m[EmailController][39m [31mhello[39m - {"stack":[null]}
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:42:31 AM [33m[EmailController][39m [32mhello[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:42:31 AM [33m[EmailController][39m [32mhello[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:42:44 AM [33m[RoutesResolver][39m [32mEmailController {/api/email}:[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:42:44 AM [33m[RouterExplorer][39m [32mMapped {/api/email/verify, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:42:44 AM [33m[RouterExplorer][39m [32mMapped {/api/email, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:42:44 AM [33m[NestApplication][39m [32mNest application successfully started[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:42:44 AM [32m🚀 Application is running on: http://localhost:3000/api[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:42:45 AM [33m[EmailController][39m [32mhello[39m - {}
+[31m[NestWinston][39m [33mError[39m	5/26/2023, 5:42:45 AM [33m[EmailController][39m [31mhello[39m - {"stack":[null]}
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:42:45 AM [33m[EmailController][39m [32mhello[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:42:45 AM [33m[EmailController][39m [32mhello[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:42:46 AM [33m[EmailController][39m [32mhello[39m - {}
+[31m[NestWinston][39m [33mError[39m	5/26/2023, 5:42:46 AM [33m[EmailController][39m [31mhello[39m - {"stack":[null]}
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:42:46 AM [33m[EmailController][39m [32mhello[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:42:46 AM [33m[EmailController][39m [32mhello[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:42:52 AM [33m[RoutesResolver][39m [32mEmailController {/api/email}:[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:42:52 AM [33m[RouterExplorer][39m [32mMapped {/api/email/verify, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:42:52 AM [33m[RouterExplorer][39m [32mMapped {/api/email, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:42:52 AM [33m[NestApplication][39m [32mNest application successfully started[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	5/26/2023, 5:42:52 AM [32m🚀 Application is running on: http://localhost:3000/api[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	6/1/2023, 6:42:41 PM [33m[RoutesResolver][39m [32mEmailController {/api/email}:[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	6/1/2023, 6:42:41 PM [33m[RouterExplorer][39m [32mMapped {/api/email/verify, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	6/1/2023, 6:42:41 PM [33m[RouterExplorer][39m [32mMapped {/api/email, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	6/1/2023, 6:42:41 PM [33m[NestApplication][39m [32mNest application successfully started[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	6/1/2023, 6:42:41 PM [32m🚀 Application is running on: http://localhost:3000/api[39m - {}
+2023-06-01T15:53:02.441Z [[32mINFO[39m]: EmailController {/api/email}:
+2023-06-01T15:53:02.449Z [[32mINFO[39m]: Mapped {/api/email/verify, GET} route
+2023-06-01T15:53:02.451Z [[32mINFO[39m]: Mapped {/api/email, GET} route
+2023-06-01T15:53:02.457Z [[32mINFO[39m]: Nest application successfully started
+2023-06-01T15:53:02.468Z [[32mINFO[39m]: 🚀 Application is running on: http://localhost:3000/api
+function toUTCString() { [native code] } [[32mINFO[39m]: EmailController {/api/email}:
+function toUTCString() { [native code] } [[32mINFO[39m]: Mapped {/api/email/verify, GET} route
+function toUTCString() { [native code] } [[32mINFO[39m]: Mapped {/api/email, GET} route
+function toUTCString() { [native code] } [[32mINFO[39m]: Nest application successfully started
+function toUTCString() { [native code] } [[32mINFO[39m]: 🚀 Application is running on: http://localhost:3000/api
+Thu, 01 Jun 2023 15:53:27 GMT [[32mINFO[39m]: EmailController {/api/email}:
+Thu, 01 Jun 2023 15:53:27 GMT [[32mINFO[39m]: Mapped {/api/email/verify, GET} route
+Thu, 01 Jun 2023 15:53:27 GMT [[32mINFO[39m]: Mapped {/api/email, GET} route
+Thu, 01 Jun 2023 15:53:27 GMT [[32mINFO[39m]: Nest application successfully started
+Thu, 01 Jun 2023 15:53:27 GMT [[32mINFO[39m]: 🚀 Application is running on: http://localhost:3000/api
+2023-06-01T15:53:49.923Z [[32mINFO[39m]: EmailController {/api/email}:
+2023-06-01T15:53:49.931Z [[32mINFO[39m]: Mapped {/api/email/verify, GET} route
+2023-06-01T15:53:49.933Z [[32mINFO[39m]: Mapped {/api/email, GET} route
+2023-06-01T15:53:49.939Z [[32mINFO[39m]: Nest application successfully started
+2023-06-01T15:53:49.949Z [[32mINFO[39m]: 🚀 Application is running on: http://localhost:3000/api
+2023-06-01T15:54:06.214Z [[32mEmailController {/api/email}:[39m]: EmailController {/api/email}:
+2023-06-01T15:54:06.225Z [[32mMapped {/api/email/verify, GET} route[39m]: Mapped {/api/email/verify, GET} route
+2023-06-01T15:54:06.228Z [[32mMapped {/api/email, GET} route[39m]: Mapped {/api/email, GET} route
+2023-06-01T15:54:06.236Z [[32mNest application successfully started[39m]: Nest application successfully started
+2023-06-01T15:54:06.246Z [[32m🚀 Application is running on: http://localhost:3000/api[39m]: 🚀 Application is running on: http://localhost:3000/api
+2023-06-01T15:54:09.804Z [[32mINFO[39m]: EmailController {/api/email}:
+2023-06-01T15:54:09.813Z [[32mINFO[39m]: Mapped {/api/email/verify, GET} route
+2023-06-01T15:54:09.814Z [[32mINFO[39m]: Mapped {/api/email, GET} route
+2023-06-01T15:54:09.819Z [[32mINFO[39m]: Nest application successfully started
+2023-06-01T15:54:09.827Z [[32mINFO[39m]: 🚀 Application is running on: http://localhost:3000/api
+2023-06-01T15:54:17.932Z [[32m[ 'INFO', 'EmailController {/api/email}:' ][39m]: EmailController {/api/email}:
+2023-06-01T15:54:17.944Z [[32m[ 'INFO', 'Mapped {/api/email/verify, GET} route' ][39m]: Mapped {/api/email/verify, GET} route
+2023-06-01T15:54:17.947Z [[32m[ 'INFO', 'Mapped {/api/email, GET} route' ][39m]: Mapped {/api/email, GET} route
+2023-06-01T15:54:17.952Z [[32m[ 'INFO', 'Nest application successfully started' ][39m]: Nest application successfully started
+2023-06-01T15:54:17.963Z [[32m[ 'INFO', '🚀 Application is running on: http://localhost:3000/api' ][39m]: 🚀 Application is running on: http://localhost:3000/api
+2023-06-01T15:54:50.972Z [[32mINFO: EmailController {/api/email}:[39m]: 
+2023-06-01T15:54:50.980Z [[32mINFO: Mapped {/api/email/verify, GET} route[39m]: 
+2023-06-01T15:54:50.982Z [[32mINFO: Mapped {/api/email, GET} route[39m]: 
+2023-06-01T15:54:50.987Z [[32mINFO: Nest application successfully started[39m]: 
+2023-06-01T15:54:50.997Z [[32mINFO: 🚀 Application is running on: http://localhost:3000/api[39m]: 
+2023-06-01T15:55:10.271Z [[32m[INFO]: EmailController {/api/email}:[39m]: 
+2023-06-01T15:55:10.282Z [[32m[INFO]: Mapped {/api/email/verify, GET} route[39m]: 
+2023-06-01T15:55:10.284Z [[32m[INFO]: Mapped {/api/email, GET} route[39m]: 
+2023-06-01T15:55:10.291Z [[32m[INFO]: Nest application successfully started[39m]: 
+2023-06-01T15:55:10.300Z [[32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m]: 
+2023-06-01T15:55:13.658Z [32m[INFO]: EmailController {/api/email}:[39m 
+2023-06-01T15:55:13.669Z [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+2023-06-01T15:55:13.670Z [32m[INFO]: Mapped {/api/email, GET} route[39m 
+2023-06-01T15:55:13.677Z [32m[INFO]: Nest application successfully started[39m 
+2023-06-01T15:55:13.685Z [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+18:55:29 GMT+0300 (East Africa Time) [32m[INFO]: EmailController {/api/email}:[39m 
+18:55:29 GMT+0300 (East Africa Time) [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+18:55:29 GMT+0300 (East Africa Time) [32m[INFO]: Mapped {/api/email, GET} route[39m 
+18:55:29 GMT+0300 (East Africa Time) [32m[INFO]: Nest application successfully started[39m 
+18:55:29 GMT+0300 (East Africa Time) [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+6:55:41 PM [32m[INFO]: EmailController {/api/email}:[39m 
+6:55:41 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+6:55:41 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+6:55:41 PM [32m[INFO]: Nest application successfully started[39m 
+6:55:41 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 

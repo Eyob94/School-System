@@ -1,0 +1,483 @@
+6:56:34 PM [32m[INFO]: EmailController {/api/email}:[39m 
+6:56:34 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+6:56:34 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+6:56:34 PM [32m[INFO]: Nest application successfully started[39m 
+6:56:34 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+6:56:46 PM [32m[INFO]: EmailController {/api/email}:[39m 
+6:56:46 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+6:56:46 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+6:56:46 PM [32m[INFO]: Nest application successfully started[39m 
+6:56:46 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+6:56:53 PM [32m[INFO]: EmailController {/api/email}:[39m 
+6:56:53 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+6:56:53 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+6:56:53 PM [32m[INFO]: Nest application successfully started[39m 
+6:56:53 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+6:57:14 PM [32m[INFO]: EmailController {/api/email}:[39m 
+6:57:14 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+6:57:14 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+6:57:14 PM [32m[INFO]: Nest application successfully started[39m 
+6:57:14 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:05:26 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:05:26 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:05:26 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:05:26 PM [32m[INFO]: Nest application successfully started[39m 
+7:05:26 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:11:26 PM [32m[INFO]: hello[39m 
+7:11:26 PM [31m[ERROR]: hello[39m 
+7:11:26 PM [32m[INFO]: hello[39m 
+7:11:26 PM [32m[INFO]: hello[39m 
+7:11:46 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:11:46 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:11:46 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:11:46 PM [32m[INFO]: Nest application successfully started[39m 
+7:11:46 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:13:32 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:13:32 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:13:32 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:13:32 PM [32m[INFO]: Nest application successfully started[39m 
+7:13:32 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:13:43 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:13:43 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:13:43 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:13:43 PM [32m[INFO]: Nest application successfully started[39m 
+7:13:43 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:13:58 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:13:58 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:13:58 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:13:58 PM [32m[INFO]: Nest application successfully started[39m 
+7:13:58 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:14:01 PM [31m[ERROR]: NOT VERIFIED[39m 
+7:14:19 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:14:19 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:14:19 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:14:19 PM [32m[INFO]: Nest application successfully started[39m 
+7:14:19 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:14:21 PM [31m[ERROR]: NOT VERIFIED[39m 
+7:17:33 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:17:33 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:17:33 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:17:33 PM [32m[INFO]: Nest application successfully started[39m 
+7:17:33 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:18:52 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:18:52 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:18:52 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:18:52 PM [32m[INFO]: Nest application successfully started[39m 
+7:18:52 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:18:57 PM [31m[ERROR]: NOT VERIFIED[39m 
+7:20:01 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:20:01 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:20:01 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:20:01 PM [32m[INFO]: Nest application successfully started[39m 
+7:20:01 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:20:04 PM [32m[INFO]: Accepting Emails[39m 
+7:20:52 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:20:52 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:20:52 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:20:52 PM [32m[INFO]: Nest application successfully started[39m 
+7:20:52 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:20:54 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:20:54 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:20:54 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:20:54 PM [32m[INFO]: Nest application successfully started[39m 
+7:20:54 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:21:13 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:21:13 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:21:13 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:21:13 PM [32m[INFO]: Nest application successfully started[39m 
+7:21:13 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:21:16 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:21:16 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:21:16 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:21:16 PM [32m[INFO]: Nest application successfully started[39m 
+7:21:16 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:21:19 PM [32m[INFO]: Server accepting Emails[39m 
+7:21:45 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:21:45 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:21:45 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:21:45 PM [32m[INFO]: Nest application successfully started[39m 
+7:21:45 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:21:51 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:21:51 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:21:51 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:21:51 PM [32m[INFO]: Nest application successfully started[39m 
+7:21:51 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:22:04 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:22:04 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:22:04 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:22:04 PM [32m[INFO]: Nest application successfully started[39m 
+7:22:04 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:22:05 PM [32m[INFO]: undefined[39m 
+7:22:07 PM [32m[INFO]: undefined[39m 
+7:22:08 PM [32m[INFO]: Server accepting Emails[39m 
+7:22:08 PM [32m[INFO]: Server accepting Emails[39m 
+7:22:09 PM [32m[INFO]: Server accepting Emails[39m 
+7:22:09 PM [32m[INFO]: Server accepting Emails[39m 
+7:22:26 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:22:26 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:22:26 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:22:26 PM [32m[INFO]: Nest application successfully started[39m 
+7:22:26 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:22:34 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:22:34 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:22:34 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:22:34 PM [32m[INFO]: Nest application successfully started[39m 
+7:22:34 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:22:39 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:22:39 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:22:39 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:22:39 PM [32m[INFO]: Nest application successfully started[39m 
+7:22:39 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:24:06 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:24:06 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:24:06 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:24:06 PM [32m[INFO]: Nest application successfully started[39m 
+7:24:06 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:24:13 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:24:13 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:24:13 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:24:13 PM [32m[INFO]: Nest application successfully started[39m 
+7:24:13 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:24:21 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:24:21 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:24:21 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:24:21 PM [32m[INFO]: Nest application successfully started[39m 
+7:24:21 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:24:29 PM [32m[INFO]: Server accepting Emails[39m 
+7:24:43 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:24:43 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:24:43 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:24:43 PM [32m[INFO]: Nest application successfully started[39m 
+7:24:43 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:24:46 PM [32m[INFO]: Server accepting Emails[39m 
+7:25:39 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:25:39 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:25:39 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:25:39 PM [32m[INFO]: Nest application successfully started[39m 
+7:25:39 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:26:05 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:26:05 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:26:05 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:26:05 PM [32m[INFO]: Nest application successfully started[39m 
+7:26:05 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:26:23 PM [32m[INFO]: Server accepting Emails[39m 
+7:26:59 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:26:59 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:26:59 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:26:59 PM [32m[INFO]: Nest application successfully started[39m 
+7:26:59 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:27:11 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:27:11 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:27:11 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:27:11 PM [32m[INFO]: Nest application successfully started[39m 
+7:27:11 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:27:20 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:27:20 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:27:20 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:27:20 PM [32m[INFO]: Nest application successfully started[39m 
+7:27:20 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:27:29 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:27:29 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:27:29 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:27:29 PM [32m[INFO]: Nest application successfully started[39m 
+7:27:29 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:27:34 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:27:34 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:27:34 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:27:34 PM [32m[INFO]: Nest application successfully started[39m 
+7:27:34 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:27:36 PM [32m[INFO]: Verification succeeded[39m 
+7:27:43 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:27:43 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:27:43 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:27:43 PM [32m[INFO]: Nest application successfully started[39m 
+7:27:43 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:27:45 PM [31m[ERROR]: Verification failed[39m 
+7:27:45 PM [31m[ERROR]: undefined[39m 
+7:27:54 PM [31m[ERROR]: Verification failed[39m 
+7:27:54 PM [31m[ERROR]: undefined[39m 
+7:28:12 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:28:12 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:28:12 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:28:12 PM [32m[INFO]: Nest application successfully started[39m 
+7:28:12 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:28:19 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:28:19 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:28:19 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:28:19 PM [32m[INFO]: Nest application successfully started[39m 
+7:28:19 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:28:21 PM [32m[INFO]: Verification succeeded[39m 
+7:31:22 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:31:22 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:31:22 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:31:22 PM [32m[INFO]: Nest application successfully started[39m 
+7:31:22 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:31:29 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:31:29 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:31:29 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:31:29 PM [32m[INFO]: Nest application successfully started[39m 
+7:31:29 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:31:32 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:31:32 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:31:32 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:31:32 PM [32m[INFO]: Nest application successfully started[39m 
+7:31:32 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:31:52 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:31:52 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:31:52 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:31:52 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+7:31:52 PM [32m[INFO]: Nest application successfully started[39m 
+7:31:52 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:33:39 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:33:39 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:33:39 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:33:39 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+7:33:39 PM [32m[INFO]: Nest application successfully started[39m 
+7:33:39 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:33:40 PM [31m[ERROR]: 360:error:1408F10B:SSL routines:ssl3_get_record:wrong version number:c:\ws\deps\openssl\openssl\ssl\record\ssl3_record.c:332:[39m
+[31m[39m 
+7:33:43 PM [31m[ERROR]: 360:error:1408F10B:SSL routines:ssl3_get_record:wrong version number:c:\ws\deps\openssl\openssl\ssl\record\ssl3_record.c:332:[39m
+[31m[39m 
+7:33:48 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:33:48 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:33:48 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:33:48 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+7:33:48 PM [32m[INFO]: Nest application successfully started[39m 
+7:33:48 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:44:09 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:44:09 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:44:09 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:44:09 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+7:44:09 PM [32m[INFO]: Nest application successfully started[39m 
+7:44:09 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:44:25 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:44:25 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:44:25 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:44:25 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+7:44:25 PM [32m[INFO]: Nest application successfully started[39m 
+7:44:25 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:45:40 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:45:40 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:45:40 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:45:40 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+7:45:40 PM [32m[INFO]: Nest application successfully started[39m 
+7:45:40 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:45:59 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:45:59 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:45:59 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:45:59 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+7:45:59 PM [32m[INFO]: Nest application successfully started[39m 
+7:45:59 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:46:07 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:46:07 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:46:07 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:46:07 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+7:46:07 PM [32m[INFO]: Nest application successfully started[39m 
+7:46:07 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:57:29 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:57:29 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:57:29 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:57:29 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+7:57:29 PM [32m[INFO]: Nest application successfully started[39m 
+7:57:29 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:58:14 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:58:14 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:58:14 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:58:14 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+7:58:14 PM [32m[INFO]: Nest application successfully started[39m 
+7:58:14 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:58:25 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:58:25 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:58:25 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:58:25 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+7:58:25 PM [32m[INFO]: Nest application successfully started[39m 
+7:58:25 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+7:59:59 PM [32m[INFO]: EmailController {/api/email}:[39m 
+7:59:59 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+7:59:59 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+7:59:59 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+7:59:59 PM [32m[INFO]: Nest application successfully started[39m 
+7:59:59 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+8:02:04 PM [32m[INFO]: EmailController {/api/email}:[39m 
+8:02:04 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+8:02:04 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+8:02:04 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+8:02:04 PM [32m[INFO]: Nest application successfully started[39m 
+8:02:04 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+8:03:09 PM [32m[INFO]: EmailController {/api/email}:[39m 
+8:03:09 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+8:03:09 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+8:03:09 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+8:03:09 PM [32m[INFO]: Nest application successfully started[39m 
+8:03:09 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+8:03:27 PM [32m[INFO]: EmailController {/api/email}:[39m 
+8:03:27 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+8:03:27 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+8:03:27 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+8:03:27 PM [32m[INFO]: Nest application successfully started[39m 
+8:03:27 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+8:03:39 PM [32m[INFO]: EmailController {/api/email}:[39m 
+8:03:39 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+8:03:39 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+8:03:39 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+8:03:39 PM [32m[INFO]: Nest application successfully started[39m 
+8:03:39 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+8:04:00 PM [32m[INFO]: EmailController {/api/email}:[39m 
+8:04:00 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+8:04:00 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+8:04:00 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+8:04:00 PM [32m[INFO]: Nest application successfully started[39m 
+8:04:00 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+8:04:16 PM [32m[INFO]: EmailController {/api/email}:[39m 
+8:04:16 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+8:04:16 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+8:04:16 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+8:04:16 PM [32m[INFO]: Nest application successfully started[39m 
+8:04:16 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+8:05:19 PM [32m[INFO]: EmailController {/api/email}:[39m 
+8:05:19 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+8:05:19 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+8:05:19 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+8:05:19 PM [32m[INFO]: Nest application successfully started[39m 
+8:05:19 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+8:05:44 PM [32m[INFO]: EmailController {/api/email}:[39m 
+8:05:44 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+8:05:44 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+8:05:44 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+8:05:44 PM [32m[INFO]: Nest application successfully started[39m 
+8:05:44 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+8:05:52 PM [32m[INFO]: EmailController {/api/email}:[39m 
+8:05:52 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+8:05:52 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+8:05:52 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+8:05:52 PM [32m[INFO]: Nest application successfully started[39m 
+8:05:52 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+8:05:57 PM [32m[INFO]: EmailController {/api/email}:[39m 
+8:05:57 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+8:05:57 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+8:05:57 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+8:05:57 PM [32m[INFO]: Nest application successfully started[39m 
+8:05:57 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+8:06:39 PM [32m[INFO]: EmailController {/api/email}:[39m 
+8:06:39 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+8:06:39 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+8:06:39 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+8:06:39 PM [32m[INFO]: Nest application successfully started[39m 
+8:06:39 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+8:12:01 PM [32m[INFO]: EmailController {/api/email}:[39m 
+8:12:01 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+8:12:01 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+8:12:01 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+8:12:01 PM [32m[INFO]: Nest application successfully started[39m 
+8:12:01 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+8:12:06 PM [32m[INFO]: EmailController {/api/email}:[39m 
+8:12:06 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+8:12:06 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+8:12:06 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+8:12:06 PM [32m[INFO]: Nest application successfully started[39m 
+8:12:06 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+8:12:11 PM [32m[INFO]: EmailController {/api/email}:[39m 
+8:12:11 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+8:12:11 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+8:12:11 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+8:12:11 PM [32m[INFO]: Nest application successfully started[39m 
+8:12:11 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+8:12:46 PM [32m[INFO]: EmailController {/api/email}:[39m 
+8:12:46 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+8:12:46 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+8:12:46 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+8:12:46 PM [32m[INFO]: Nest application successfully started[39m 
+8:12:46 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+8:13:21 PM [32m[INFO]: EmailController {/api/email}:[39m 
+8:13:21 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+8:13:21 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+8:13:21 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+8:13:21 PM [32m[INFO]: Nest application successfully started[39m 
+8:13:21 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+8:14:14 PM [32m[INFO]: EmailController {/api/email}:[39m 
+8:14:14 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+8:14:14 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+8:14:14 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+8:14:14 PM [32m[INFO]: Nest application successfully started[39m 
+8:14:14 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+8:14:27 PM [32m[INFO]: EmailController {/api/email}:[39m 
+8:14:27 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+8:14:27 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+8:14:27 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+8:14:27 PM [32m[INFO]: Nest application successfully started[39m 
+8:14:27 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+8:14:36 PM [32m[INFO]: EmailController {/api/email}:[39m 
+8:14:36 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+8:14:36 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+8:14:36 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+8:14:36 PM [32m[INFO]: Nest application successfully started[39m 
+8:14:36 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+8:14:39 PM [32m[INFO]: EmailController {/api/email}:[39m 
+8:14:39 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+8:14:39 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+8:14:39 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+8:14:39 PM [32m[INFO]: Nest application successfully started[39m 
+8:14:39 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+8:14:55 PM [32m[INFO]: EmailController {/api/email}:[39m 
+8:14:55 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+8:14:55 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+8:14:55 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+8:14:55 PM [32m[INFO]: Nest application successfully started[39m 
+8:14:55 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+8:15:02 PM [32m[INFO]: EmailController {/api/email}:[39m 
+8:15:02 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+8:15:02 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+8:15:02 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+8:15:02 PM [32m[INFO]: Nest application successfully started[39m 
+8:15:02 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+8:15:10 PM [32m[INFO]: EmailController {/api/email}:[39m 
+8:15:10 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+8:15:10 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+8:15:10 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+8:15:10 PM [32m[INFO]: Nest application successfully started[39m 
+8:15:10 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+8:15:21 PM [32m[INFO]: EmailController {/api/email}:[39m 
+8:15:21 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+8:15:21 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+8:15:21 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+8:15:21 PM [32m[INFO]: Nest application successfully started[39m 
+8:15:21 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+8:15:39 PM [32m[INFO]: Verification succeeded[39m 
+8:15:46 PM [31m[ERROR]: No recipients defined[39m 
+8:16:42 PM [32m[INFO]: EmailController {/api/email}:[39m 
+8:16:42 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+8:16:42 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+8:16:42 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+8:16:42 PM [32m[INFO]: Nest application successfully started[39m 
+8:16:42 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+8:18:44 PM [31m[ERROR]: No recipients defined[39m 
+8:19:13 PM [32m[INFO]: EmailController {/api/email}:[39m 
+8:19:13 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+8:19:13 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+8:19:13 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+8:19:13 PM [32m[INFO]: Nest application successfully started[39m 
+8:19:13 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+8:19:15 PM [31m[ERROR]: No recipients defined[39m 
+8:19:21 PM [31m[ERROR]: No recipients defined[39m 
+8:19:40 PM [32m[INFO]: EmailController {/api/email}:[39m 
+8:19:40 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+8:19:40 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+8:19:40 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+8:19:40 PM [32m[INFO]: Nest application successfully started[39m 
+8:19:40 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+8:19:44 PM [32m[INFO]: envelope[39m 
+8:19:46 PM [31m[ERROR]: No recipients defined[39m 
+8:20:30 PM [32m[INFO]: EmailController {/api/email}:[39m 
+8:20:30 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+8:20:30 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+8:20:30 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+8:20:30 PM [32m[INFO]: Nest application successfully started[39m 
+8:20:30 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
+8:20:32 PM [32m[INFO]: envelope[39m 
+8:20:57 PM [32m[INFO]: envelope[39m 
+8:21:11 PM [32m[INFO]: EmailController {/api/email}:[39m 
+8:21:11 PM [32m[INFO]: Mapped {/api/email/verify, GET} route[39m 
+8:21:11 PM [32m[INFO]: Mapped {/api/email, GET} route[39m 
+8:21:11 PM [32m[INFO]: Mapped {/api/email/send, GET} route[39m 
+8:21:11 PM [32m[INFO]: Nest application successfully started[39m 
+8:21:11 PM [32m[INFO]: 🚀 Application is running on: http://localhost:3000/api[39m 
