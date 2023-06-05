@@ -1,5 +1,5 @@
 import winston from 'winston';
-import { utilities, WinstonModuleOptions } from 'nest-winston';
+import { WinstonModuleOptions } from 'nest-winston';
 
 const customColors = {
   info: 'green',
