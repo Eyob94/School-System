@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "start:notification": "dotenv -e noti.env -- yarn nx serve notifications",
+    "start:publisher": "dotenv -e publisher.env -- yarn nx serve event-publisher",
     "migrate:school": "dotenv -e school.env -- yarn prisma migrate dev --schema apps/school/prisma/schema.prisma",
     "migrate:studnet": "yarn prisma migrate dev --schema apps/student/prisma/schema.prisma",
     "format:school": "yarn prisma format --schema apps/school/prisma/schema.prisma",
@@ -32,7 +33,8 @@
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.0.0",
     "tslib": "^2.3.0",
-    "winston": "^3.8.2"
+    "winston": "^3.8.2",
+    "zod": "^3.21.4"
   },
   "devDependencies": {
     "@nestjs/schematics": "^9.0.0",

@@ -1,4 +1,4 @@
-# School Project
+# School-Net
 
 This project aims to encompass the entire nation’s school system. The project will be
 able to virtualize the tedious and repetitive tasks that take place in school
