@@ -13,7 +13,7 @@
         "outputPath": "dist/apps/event-publisher",
         "format": ["cjs"],
         "bundle": false,
-        "main": "apps/event-publisher/src/main.ts",
+        "main": "apps/event-publisher/src/server.ts",
         "tsConfig": "apps/event-publisher/tsconfig.app.json",
         "assets": ["apps/event-publisher/src/assets"],
         "generatePackageJson": true,

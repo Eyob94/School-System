@@ -1,14 +1,35 @@
 import express from 'express';
+import { Controller } from './interfaces';
+import bodyParser from 'body-parser';
+import winston, { Logger } from 'winston';
+import { winstonConfig } from '@school/winston-logger';
 
-const host = process.env.HOST ?? 'localhost';
-const port = process.env.PORT ? Number(process.env.PORT) : 3000;
+class App {
+  public app: express.Application;
+  private logger: Logger;
 
-const app = express();
+  constructor(controllers: Controller[], private port: number) {
+    this.app = express();
+    this.initializeMiddlewares();
+    this.initializeControllers(controllers);
+    this.logger = winston.createLogger(winstonConfig('event-publisher'));
+  }
 
-app.get('/', (req, res) => {
-  res.send({ message: 'Hello API' });
-});
+  public listen() {
+    this.app.listen(this.port, () => {
+      this.logger.info(`App listening on port ${this.port}`);
+    });
+  }
 
-app.listen(port, host, () => {
-  console.log(`[ ready ] http://${host}:${port}`);
-});
+  private initializeControllers(controllers: Controller[]) {
+    controllers.forEach((controller) => {
+      this.app.use('/', controller.router);
+    });
+  }
+
+  private initializeMiddlewares() {
+    this.app.use(bodyParser.json());
+  }
+}
+
+export default App;
