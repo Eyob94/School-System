@@ -20,6 +20,7 @@ export const eventValidator = async (
     const { topic, ...message } = req.body;
     req.topic = topic;
     req.message = message;
+    req.partition = message.partition;
     next();
   } catch (error) {
     return res.status(400).send(error);

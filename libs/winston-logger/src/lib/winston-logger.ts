@@ -18,7 +18,7 @@ export const winstonConfig = (app: string): WinstonModuleOptions => {
     transports: [
       new winston.transports.Console(),
       new winston.transports.File({
-        filename: `apps/${app}/logs/app-${new Date().toDateString()}.log`,
+        filename: `logs/${app}/${app}-${new Date().toDateString()}.log`,
       }),
     ],
     format: winston.format.combine(
