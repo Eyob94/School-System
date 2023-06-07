@@ -7,6 +7,7 @@ const schema = z.object({
   eventId: z.string().nonempty(),
   eventTime: z.string().nonempty(),
   eventType: z.string().nonempty(),
+
   payload: z.any(),
 });
 

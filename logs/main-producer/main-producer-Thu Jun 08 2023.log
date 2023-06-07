@@ -132,3 +132,13 @@
 12:39:21 AM [32m[INFO]: Producer connected successfully[39m 
 12:39:25 AM [32m[INFO]: main-producer disconnected[39m 
 12:40:02 AM [32m[INFO]: main-producer disconnected[39m 
+12:40:37 AM [32m[INFO]: Message published successfully to topic "paritioning" and partition "0"[39m 
+12:40:40 AM [32m[INFO]: Message published successfully to topic "paritioning" and partition "1"[39m 
+12:40:41 AM [32m[INFO]: Message published successfully to topic "paritioning" and partition "0"[39m 
+12:40:42 AM [32m[INFO]: Message published successfully to topic "paritioning" and partition "1"[39m 
+12:40:42 AM [32m[INFO]: Message published successfully to topic "paritioning" and partition "0"[39m 
+12:47:36 AM [32m[INFO]: main-producer disconnected[39m 
+1:25:20 AM [32m[INFO]: main-producer disconnected[39m 
+1:25:41 AM [32m[INFO]: Message published successfully to topic "paritioning" and partition "0"[39m 
+1:26:07 AM [32m[INFO]: Message published successfully to topic "paritioning" and partition "1"[39m 
+1:26:08 AM [32m[INFO]: Message published successfully to topic "paritioning" and partition "0"[39m 

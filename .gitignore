@@ -41,4 +41,7 @@ Thumbs.db
 
 #environment
 *.env
+*.log
+logs
 apps/**/*.log
+*.pem

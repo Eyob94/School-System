@@ -31,7 +31,7 @@ export class KafkaProducer {
       //Log and set producerConnected to true upon producer connection
       this.producer.on('producer.connect', () => {
         this.producerConnected = true;
-        this.logger.info(`${app}-producer disconnected`);
+        this.logger.info(`${app}-producer connected`);
       });
     } catch (e) {
       this.logger.error(e);

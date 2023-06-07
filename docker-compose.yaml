@@ -1,5 +1,38 @@
 version: '3'
 services:
+  api_gateway:
+    image: nginx
+    container_name: api_gateway
+    ports:
+      - '80:80'
+      - '443:443'
+    networks:
+      - event-publisher
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+
+  # event-publisher:
+  #   build:
+  #     context: .
+  #     target: serve
+  #     dockerfile: apps/event-publisher/Dockerfile
+  #     args:
+  #       - TAG=event-publisher:1.0
+  #   image: event-publisher:1.0
+  #   container_name: event-publisher
+  #   networks:
+  #     - event-publisher
+  #   ports:
+  #     - '2222:2222'
+  #   environment:
+  #     EVENT_PUBLISHER_PORT: 2222
+  #     KAFKA_CLIENT_ID: event-publisher
+  #     KAFKA_BROKERS: kafka-1:29092, kafka-2:39092
+  #   depends_on:
+  #     - api_gateway
+  #     - kafka-1
+  #     - kafka-2
+
   student_postgres:
     image: postgres
     container_name: student_database
@@ -29,6 +62,8 @@ services:
     container_name: zookeeper
     ports:
       - 2181:2181
+    networks:
+      - event-publisher
     environment:
       ZOOKEEPER_CLIENT_PORT: 2181
       ZOOKEEPER_TICK_TIME: 2000
@@ -40,6 +75,8 @@ services:
       - zookeeper
     ports:
       - 29092:29092
+    networks:
+      - event-publisher
     environment:
       KAFKA_BROKER_ID: 1
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
@@ -55,6 +92,8 @@ services:
     container_name: kafka-2
     ports:
       - 39092:39092
+    networks:
+      - event-publisher
     environment:
       KAFKA_BROKER_ID: 2
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
@@ -67,6 +106,8 @@ networks:
   student:
     driver: bridge
   school:
+    driver: bridge
+  event-publisher:
     driver: bridge
 
 volumes:
