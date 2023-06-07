@@ -1,9 +1,9 @@
 import { NextFunction, Response, Router } from 'express';
 import { Controller } from '../interfaces';
-import KafkaProducer from './publisher.service';
 import { eventValidator } from './middleware';
 import { EventRequest } from './types';
 import { logger } from '../lib';
+import { KafkaProducer } from '@school/kafka-producer';
 
 class PublisherController implements Controller {
   public path = '/publish';
@@ -14,7 +14,8 @@ class PublisherController implements Controller {
     this.initializeRoutes();
     this.publisher = new KafkaProducer(
       process.env.KAFKA_CLIENT_ID,
-      process.env.KAFKA_BROKERS.split(',')
+      process.env.KAFKA_BROKERS.split(','),
+      'main'
     );
   }
 
@@ -24,7 +25,7 @@ class PublisherController implements Controller {
 
   private publish = (req: EventRequest, res: Response, next: NextFunction) => {
     try {
-      this.publisher.publishMessage(req.topic, req.message);
+      this.publisher.publishMessage(req.topic, req.message, req.partition);
       return res.status(201).send('Message published successfully');
     } catch (e) {
       logger.error(e.message);

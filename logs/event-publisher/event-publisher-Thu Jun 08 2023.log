@@ -1,0 +1,112 @@
+12:18:49 AM [32m[INFO]: parsing[39m 
+12:18:49 AM [32m[INFO]: App listening on port 2222[39m 
+12:19:31 AM [32m[INFO]: App listening on port 2222[39m 
+12:19:31 AM [32m[INFO]: parsing[39m 
+12:20:31 AM [32m[INFO]: parsing[39m 
+12:20:31 AM [32m[INFO]: App listening on port 2222[39m 
+12:21:13 AM [32m[INFO]: parsing[39m 
+12:21:13 AM [32m[INFO]: App listening on port 2222[39m 
+12:23:24 AM [32m[INFO]: parsing[39m 
+12:23:24 AM [32m[INFO]: App listening on port 2222[39m 
+12:26:16 AM [32m[INFO]: parsing[39m 
+12:26:16 AM [32m[INFO]: App listening on port 2222[39m 
+12:26:29 AM [32m[INFO]: parsing[39m 
+12:26:29 AM [32m[INFO]: App listening on port 2222[39m 
+12:26:43 AM [32m[INFO]: parsing[39m 
+12:26:43 AM [32m[INFO]: App listening on port 2222[39m 
+12:27:43 AM [32m[INFO]: parsing[39m 
+12:27:43 AM [32m[INFO]: App listening on port 2222[39m 
+12:27:57 AM [32m[INFO]: parsing[39m 
+12:27:57 AM [32m[INFO]: App listening on port 2222[39m 
+12:28:11 AM [32m[INFO]: App listening on port 2222[39m 
+12:28:11 AM [32m[INFO]: parsing[39m 
+12:28:50 AM [32m[INFO]: App listening on port 2222[39m 
+12:28:50 AM [32m[INFO]: parsing[39m 
+12:29:10 AM [32m[INFO]: parsing[39m 
+12:29:10 AM [32m[INFO]: App listening on port 2222[39m 
+12:31:28 AM [32m[INFO]: parsing[39m 
+12:31:28 AM [32m[INFO]: App listening on port 2222[39m 
+12:31:54 AM [32m[INFO]: parsing[39m 
+12:31:54 AM [32m[INFO]: App listening on port 2222[39m 
+12:32:01 AM [32m[INFO]: parsing[39m 
+12:32:01 AM [32m[INFO]: App listening on port 2222[39m 
+12:32:11 AM [32m[INFO]: parsing[39m 
+12:32:11 AM [32m[INFO]: App listening on port 2222[39m 
+12:32:24 AM [32m[INFO]: parsing[39m 
+12:32:24 AM [32m[INFO]: App listening on port 2222[39m 
+12:33:26 AM [32m[INFO]: parsing[39m 
+12:33:26 AM [32m[INFO]: App listening on port 2222[39m 
+12:33:41 AM [32m[INFO]: parsing[39m 
+12:33:41 AM [32m[INFO]: App listening on port 2222[39m 
+12:33:44 AM [32m[INFO]: parsing[39m 
+12:33:44 AM [32m[INFO]: App listening on port 2222[39m 
+12:33:57 AM [32m[INFO]: parsing[39m 
+12:33:57 AM [32m[INFO]: App listening on port 2222[39m 
+12:34:07 AM [32m[INFO]: parsing[39m 
+12:34:07 AM [32m[INFO]: App listening on port 2222[39m 
+12:34:28 AM [32m[INFO]: parsing[39m 
+12:34:28 AM [32m[INFO]: App listening on port 2222[39m 
+12:35:33 AM [32m[INFO]: parsing[39m 
+12:35:33 AM [32m[INFO]: App listening on port 2222[39m 
+12:36:07 AM [32m[INFO]: parsing[39m 
+12:36:07 AM [32m[INFO]: App listening on port 2222[39m 
+12:36:35 AM [32m[INFO]: parsing[39m 
+12:36:35 AM [32m[INFO]: App listening on port 2222[39m 
+12:36:38 AM [32m[INFO]: parsing[39m 
+12:36:38 AM [32m[INFO]: App listening on port 2222[39m 
+12:36:42 AM [32m[INFO]: parsing[39m 
+12:36:43 AM [32m[INFO]: App listening on port 2222[39m 
+12:37:11 AM [32m[INFO]: parsing[39m 
+12:37:11 AM [32m[INFO]: App listening on port 2222[39m 
+12:38:06 AM [32m[INFO]: parsing[39m 
+12:38:06 AM [32m[INFO]: App listening on port 2222[39m 
+12:38:32 AM [32m[INFO]: parsing[39m 
+12:38:32 AM [32m[INFO]: App listening on port 2222[39m 
+12:38:36 AM [32m[INFO]: parsing[39m 
+12:38:36 AM [32m[INFO]: App listening on port 2222[39m 
+12:38:53 AM [32m[INFO]: parsing[39m 
+12:38:53 AM [32m[INFO]: App listening on port 2222[39m 
+12:39:01 AM [32m[INFO]: parsing[39m 
+12:39:01 AM [32m[INFO]: App listening on port 2222[39m 
+12:39:16 AM [32m[INFO]: parsing[39m 
+12:39:16 AM [32m[INFO]: App listening on port 2222[39m 
+12:39:21 AM [32m[INFO]: parsing[39m 
+12:39:21 AM [32m[INFO]: App listening on port 2222[39m 
+12:39:25 AM [32m[INFO]: parsing[39m 
+12:39:25 AM [32m[INFO]: App listening on port 2222[39m 
+12:40:02 AM [32m[INFO]: parsing[39m 
+12:40:02 AM [32m[INFO]: App listening on port 2222[39m 
+12:47:36 AM [32m[INFO]: parsing[39m 
+12:47:36 AM [32m[INFO]: App listening on port 2222[39m 
+1:24:46 AM [32m[INFO]: parsing[39m 
+1:24:46 AM [31m[ERROR]: [[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "EVENT_PUBLISHER_PORT"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "KAFKA_CLIENT_ID"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  },[39m
+[31m  {[39m
+[31m    "code": "invalid_type",[39m
+[31m    "expected": "string",[39m
+[31m    "received": "undefined",[39m
+[31m    "path": [[39m
+[31m      "KAFKA_BROKERS"[39m
+[31m    ],[39m
+[31m    "message": "Required"[39m
+[31m  }[39m
+[31m][39m 
+1:25:20 AM [32m[INFO]: parsing[39m 
+1:25:20 AM [32m[INFO]: App listening on port 2222[39m 
