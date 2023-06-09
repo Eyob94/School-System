@@ -32,7 +32,7 @@ export class KafkaProducer {
       this.producer.on('producer.connect', () => {
         this.producerConnected = true;
         this.logger.info(
-          `${app}-producer connected to brokers ${brokers.join('and')}`
+          `${app}-producer connected to brokers ${brokers.join(' & ')}`
         );
       });
     } catch (e) {
@@ -101,6 +101,7 @@ export class KafkaProducer {
       this.logger.info(
         `Message published successfully to topic "${produced?.[0].topicName}" and partition "${produced?.[0].partition}"`
       );
+      return `Message published successfully to topic "${produced?.[0].topicName}" and partition "${produced?.[0].partition}"`;
     } catch (e) {
       this.logger.error('Error in publishing message', e);
       throw new Error(e);

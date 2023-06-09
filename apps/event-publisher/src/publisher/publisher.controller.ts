@@ -23,19 +23,21 @@ class PublisherController implements Controller {
     this.router.post(this.path, eventValidator, this.publish);
   }
 
-  private publish = async (
-    req: EventRequest,
-    res: Response,
-    next: NextFunction
-  ) => {
+  private publish = async (req: EventRequest, res: Response) => {
     return this.publisher
       .publishMessage(req.topic, req.message, req.partition)
       .then(() => {
-        return res.status(201).send('Message published successfully');
+        return res.status(201).json({
+          status: 201,
+          message: 'Message Published successfully',
+        });
       })
       .catch((e) => {
         logger.error(e.message);
-        return res.status(400).send('something went wrong');
+        return res.status(400).json({
+          status: 400,
+          message: e.message,
+        });
       });
   };
 }
