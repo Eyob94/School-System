@@ -142,3 +142,4 @@
 1:25:41 AM [32m[INFO]: Message published successfully to topic "paritioning" and partition "0"[39m 
 1:26:07 AM [32m[INFO]: Message published successfully to topic "paritioning" and partition "1"[39m 
 1:26:08 AM [32m[INFO]: Message published successfully to topic "paritioning" and partition "0"[39m 
+2:05:06 AM [32m[INFO]: main-producer connected[39m 
