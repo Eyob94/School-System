@@ -31,7 +31,9 @@ export class KafkaProducer {
       //Log and set producerConnected to true upon producer connection
       this.producer.on('producer.connect', () => {
         this.producerConnected = true;
-        this.logger.info(`${app}-producer connected`);
+        this.logger.info(
+          `${app}-producer connected to brokers ${brokers.join(' & ')}`
+        );
       });
     } catch (e) {
       this.logger.error(e);
@@ -66,7 +68,7 @@ export class KafkaProducer {
   async publishMessage(topic: string, message: any, partition?: number) {
     if (!this.producerConnected) {
       this.logger.error('Producer not connected');
-      return;
+      throw new Error('Producer not connected');
     }
 
     const topicExists = await this.admin
@@ -86,7 +88,7 @@ export class KafkaProducer {
         (partition >= partitionMetadata.length || partition < 0)
       ) {
         this.logger.error('Invalid partition');
-        return;
+        throw new Error('Invalid partition');
       }
 
       const produced = await this.producer
@@ -94,14 +96,15 @@ export class KafkaProducer {
           topic,
           messages: [{ partition, value: JSON.stringify(message) }],
         })
-        .then((e) => e)
-        .catch((e) => this.logger.error(e.message));
+        .then((e) => e);
 
       this.logger.info(
         `Message published successfully to topic "${produced?.[0].topicName}" and partition "${produced?.[0].partition}"`
       );
+      return `Message published successfully to topic "${produced?.[0].topicName}" and partition "${produced?.[0].partition}"`;
     } catch (e) {
       this.logger.error('Error in publishing message', e);
+      throw new Error(e);
     }
   }
 }

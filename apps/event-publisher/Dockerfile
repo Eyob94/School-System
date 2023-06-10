@@ -13,6 +13,15 @@ RUN yarn nx build event-publisher
 
 
 
+FROM node:lts-alpine as dev
+
+WORKDIR /app
+
+COPY --from=install-dependencies /app .
+
+CMD ["yarn", "nx", "serve", "event-publisher"]
+
+
 
 FROM node:lts-alpine as serve
 
