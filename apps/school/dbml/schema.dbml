@@ -1,0 +1,230 @@
+//// ------------------------------------------------------
+//// THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+//// ------------------------------------------------------
+
+Table School {
+  id String [pk]
+  name String [not null]
+  city String [not null]
+  contactNumber String [not null]
+  governer String [not null]
+  accreditationStatus Boolean [not null]
+  email String [not null]
+  founding_date DateTime [not null]
+  logo String [not null]
+  schoolType SchoolType [not null]
+  gradingSystem GradingSystem[] [not null]
+  admissionPolicy AdmissionPolicy[] [not null]
+  famousFor String[] [not null]
+  tuition Json[] [not null]
+  Students Student [not null]
+  Courses Course [not null]
+  maxGradeLevel Int [not null]
+  createdAt DateTime [default: `now()`, not null]
+  updatedAt DateTime [not null]
+  Staff Staff [not null]
+  Employment Employment [not null]
+}
+
+Table Course {
+  id String [pk]
+  name String [not null]
+  description String [not null]
+  weight Decimal [not null, default: 1]
+  gradingSystem GradingSystem [not null]
+  reference CourseReference[] [not null]
+  passMark String [not null]
+  department Department
+  Grades Grades [not null]
+  School School [not null]
+  Teacher Teacher [not null]
+}
+
+Table Student {
+  id String [pk]
+  firstName String [not null]
+  fatherName String [not null]
+  grandfatherName String [not null]
+  motherName String [not null]
+  dateOfBirth DateTime [not null]
+  email String [not null]
+  medicalInformation String
+  languagePreferences String[] [not null]
+  nationality String [not null]
+  phone Int [not null]
+  countryCode Int [not null]
+  Gender Gender [not null]
+  guardianId String [not null]
+  guardianRelation GuardianRelation [not null]
+  Guardian Guardian [not null]
+  Address Json [not null]
+  School School [not null]
+  currentSchoolId String [not null]
+  Grades Grades [not null]
+  createdAt DateTime [default: `now()`, not null]
+  updatedAt DateTime [not null]
+  Class Class [not null]
+  classId String [not null]
+}
+
+Table Class {
+  id String [pk]
+  name String [not null]
+  gradeLevel Int [not null]
+  Section String [not null]
+  Student Student [not null]
+  assignedTeacher Teacher [not null]
+  assignedTeacherId String [unique, not null]
+  maxSize Int [not null]
+}
+
+Table Guardian {
+  id String [pk]
+  firstName String [not null]
+  fatherName String [not null]
+  gender Gender [not null]
+  phone Int [not null]
+  countryCode Int [not null]
+  email String [not null]
+  Address Json [not null]
+  Student Student [not null]
+}
+
+Table Grades {
+  course Course [not null]
+  courseId String [not null]
+  student Student [not null]
+  studentId String [not null]
+  grade String
+  assessment Json[] [not null]
+  registration DateTime [default: `now()`, not null]
+  passed Boolean
+
+  indexes {
+    (courseId, studentId, registration) [unique]
+  }
+}
+
+Table Employment {
+  id String [pk]
+  staffId String [not null]
+  Staff Staff [not null]
+  School School [not null]
+  schoolId String [not null]
+  terminationDate DateTime [not null]
+  hireDate DateTime [not null]
+  Salary Salary
+
+  indexes {
+    (staffId, schoolId) [unique]
+  }
+}
+
+Table Staff {
+  id String [pk]
+  firstName String [not null]
+  fatherName String [not null]
+  title String [not null]
+  grandfatherName String [not null]
+  motherName String [not null]
+  dateOfBirth DateTime [not null]
+  email String [not null]
+  medicalInformation String
+  languagePreferences String[] [not null]
+  nationality String [not null]
+  phone Int [not null]
+  countryCode Int [not null]
+  Gender Gender [not null]
+  Address Json [not null]
+  School School [not null]
+  currentSchoolId String [not null]
+  createdAt DateTime [default: `now()`, not null]
+  updatedAt DateTime [not null]
+  Employment Employment [not null]
+  Teacher Teacher
+  role String [not null]
+}
+
+Table Teacher {
+  Staff Staff [not null]
+  staffId String [unique, not null]
+  Course Course [not null]
+  courseId String [not null]
+  Class Class
+}
+
+Table Salary {
+  amount Float [not null]
+  Employment Employment [not null]
+  employeeId String [unique, not null]
+  createdAt DateTime [default: `now()`, not null]
+  updatedAt DateTime [not null]
+}
+
+Enum SchoolType {
+  Private
+  Public
+  BoardingPrivate
+  BoardingPublic
+  International
+}
+
+Enum GradingSystem {
+  Letter
+  Percentage
+}
+
+Enum AdmissionPolicy {
+  Interview
+  Exam
+  Previous
+}
+
+Enum CourseReference {
+  Government
+  Private
+}
+
+Enum Department {
+  Natural
+  Social
+}
+
+Enum Gender {
+  Male
+  Female
+}
+
+Enum GuardianRelation {
+  Father
+  Mother
+  Sibling
+  Uncle
+  Aunt
+  GrandParent
+  Relative
+}
+
+Ref: Student.guardianId > Guardian.id
+
+Ref: Student.currentSchoolId > School.id
+
+Ref: Student.classId > Class.id
+
+Ref: Class.assignedTeacherId - Teacher.staffId
+
+Ref: Grades.courseId > Course.id
+
+Ref: Grades.studentId > Student.id
+
+Ref: Employment.staffId > Staff.id
+
+Ref: Employment.schoolId > School.id
+
+Ref: Staff.currentSchoolId > School.id
+
+Ref: Teacher.staffId - Staff.id
+
+Ref: Teacher.courseId > Course.id
+
+Ref: Salary.employeeId - Employment.id

@@ -2,6 +2,12 @@ generator client {
   provider = "prisma-client-js"
 }
 
+generator dbml {
+  provider   = "prisma-dbml-generator"
+  output     = "../dbml"
+  outputName = "schema.dbml"
+}
+
 datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
@@ -26,29 +32,186 @@ enum AdmissionPolicy {
   Previous
 }
 
-model School {
-  id                   String            @id @default(uuid())
-  name                 String
-  city                 String
-  contact_number       String
-  principal_name       String
-  accreditation_status Boolean
-  email                String
-  founding_date        DateTime
-  logo                 String
-  school_type          SchoolType
-  grading_system       GradingSystem
-  admissionPolicy      AdmissionPolicy[]
-  tuition              Json[]            @db.JsonB
-  Teachers             String[]
-  Students             String[]
-  Courses              String[]
-  createdAt            DateTime          @default(now())
-  updatedAt            DateTime          @updatedAt
+enum CourseReference {
+  Government
+  Private
 }
 
-model Courses {
-  id          String @id @default(uuid())
-  name        String
-  description String
+enum Department {
+  Natural
+  Social
+}
+
+enum Gender {
+  Male
+  Female
+}
+
+enum GuardianRelation {
+  Father
+  Mother
+  Sibling
+  Uncle
+  Aunt
+  GrandParent
+  Relative
+}
+
+model School {
+  id                  String            @id @default(uuid())
+  name                String
+  city                String
+  contactNumber       String
+  governer            String
+  accreditationStatus Boolean
+  email               String
+  founding_date       DateTime
+  logo                String
+  schoolType          SchoolType
+  gradingSystem       GradingSystem[]
+  admissionPolicy     AdmissionPolicy[]
+  famousFor           String[]
+  tuition             Json[]            @db.JsonB
+  Students            Student[]
+  Courses             Course[]
+  maxGradeLevel       Int
+  createdAt           DateTime          @default(now())
+  updatedAt           DateTime          @updatedAt
+  Staff               Staff[]
+  Employment          Employment[]
+}
+
+model Course {
+  id            String            @id @default(uuid())
+  name          String
+  description   String
+  weight        Decimal           @default(1.0)
+  gradingSystem GradingSystem
+  reference     CourseReference[]
+  passMark      String
+  department    Department?
+  Grades        Grades[]
+  School        School[]
+  Teacher       Teacher[]
+}
+
+model Student {
+  id                  String           @id @default(uuid())
+  firstName           String
+  fatherName          String
+  grandfatherName     String
+  motherName          String
+  dateOfBirth         DateTime         @db.Date
+  email               String
+  medicalInformation  String?
+  languagePreferences String[]
+  nationality         String
+  phone               Int
+  countryCode         Int
+  Gender              Gender
+  guardianId          String
+  guardianRelation    GuardianRelation
+  Guardian            Guardian         @relation(fields: [guardianId], references: [id])
+  Address             Json             @db.JsonB
+  School              School           @relation(fields: [currentSchoolId], references: [id])
+  currentSchoolId     String
+  Grades              Grades[]
+  createdAt           DateTime         @default(now()) @db.Timestamp()
+  updatedAt           DateTime         @updatedAt @db.Timestamp()
+  Class               Class            @relation(fields: [classId], references: [id])
+  classId             String
+}
+
+model Class {
+  id                String    @id @default(uuid())
+  name              String
+  gradeLevel        Int
+  Section           String    @db.Char()
+  Student           Student[]
+  assignedTeacher   Teacher   @relation(fields: [assignedTeacherId], references: [staffId])
+  assignedTeacherId String    @unique
+  maxSize           Int
+}
+
+model Guardian {
+  id          String    @id @default(uuid())
+  firstName   String
+  fatherName  String
+  gender      Gender
+  phone       Int
+  countryCode Int
+  email       String
+  Address     Json      @db.JsonB
+  Student     Student[]
+}
+
+model Grades {
+  course       Course   @relation(fields: [courseId], references: [id])
+  courseId     String
+  student      Student  @relation(fields: [studentId], references: [id])
+  studentId    String
+  grade        String?
+  assessment   Json[]   @db.JsonB
+  registration DateTime @default(now()) @db.Date
+  passed       Boolean?
+
+  @@unique([courseId, studentId, registration])
+}
+
+model Employment {
+  id              String   @id @default(uuid())
+  staffId         String
+  Staff           Staff    @relation(fields: [staffId], references: [id])
+  School          School   @relation(fields: [schoolId], references: [id])
+  schoolId        String
+  terminationDate DateTime @db.Date
+  hireDate        DateTime @db.Date
+  Salary          Salary?
+
+  @@unique([staffId, schoolId])
+}
+
+model Staff {
+  id                  String       @id @default(uuid())
+  firstName           String
+  fatherName          String
+  title               String
+  grandfatherName     String
+  motherName          String
+  dateOfBirth         DateTime     @db.Date
+  email               String
+  medicalInformation  String?
+  languagePreferences String[]
+  nationality         String
+  phone               Int
+  countryCode         Int
+  Gender              Gender
+  Address             Json         @db.JsonB
+  School              School       @relation(fields: [currentSchoolId], references: [id])
+  currentSchoolId     String
+  createdAt           DateTime     @default(now()) @db.Timestamp()
+  updatedAt           DateTime     @updatedAt @db.Timestamp()
+  Employment          Employment[]
+  Teacher             Teacher?
+  role                String
+}
+
+model Teacher {
+  Staff    Staff  @relation(fields: [staffId], references: [id])
+  staffId  String
+  Course   Course @relation(fields: [courseId], references: [id])
+  courseId String
+  Class    Class?
+
+  @@unique([staffId])
+}
+
+model Salary {
+  amount     Float
+  Employment Employment @relation(fields: [employeeId], references: [id])
+  employeeId String
+  createdAt  DateTime   @default(now()) @db.Timestamp()
+  updatedAt  DateTime   @updatedAt @db.Timestamp()
+
+  @@unique([employeeId])
 }

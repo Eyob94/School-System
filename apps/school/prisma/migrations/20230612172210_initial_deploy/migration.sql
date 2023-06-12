@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE "Class" ALTER COLUMN "Section" SET DATA TYPE CHAR;
